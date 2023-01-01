@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int n1,n2;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter Two no.s");
+       n1=sc.nextInt();
+       n2=sc.nextInt();
+       System.out.println("First no="+n1);
+       System.out.println("Second no.="+n2);
+    }
+}
