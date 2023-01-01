@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+       float n1,n2;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter 2 no.s");
+       n1=sc.nextFloat();
+       n2=sc.nextFloat();
+       System.out.println("Product of 2 floating no.s="+(n1*n2))8.5;
+    }
+}
