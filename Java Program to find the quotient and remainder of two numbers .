@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int n1,n2,d,rem;
+       double q;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter 2 no.s");
+       n1=sc.nextInt();
+       n2=sc.nextInt();
+      if(n1>n2)
+      {
+          q=n1/n2;
+          rem=n1%n2;
+          System.out.println("Quotient="+q+"\nRemainder="+rem);
+      }
+      else
+      {
+          q=n2/n1;
+          rem=n2%n1;
+          System.out.println("Quotient="+q+"\nRemainder="+rem);
+      }
+      
+    }
+}
