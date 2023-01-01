@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int asc;
+        char c;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter a character");
+      c=sc.next().charAt(0);
+      asc=c;
+      System.out.println("ASCII of "+c+" is"+asc);
+    }
+}
