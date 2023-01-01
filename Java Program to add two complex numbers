@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int n,i;
+        float a,b,s_real=0.0f,s_img=0.0f;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter no. of Complex no.s to be added");
+        n=sc.nextInt();
+        for(i=1;i<=n;i++)
+        {
+            System.out.println("Enter real part of a complex no.");
+            a=sc.nextFloat();
+            System.out.println("Enter Imaginary part of a complex no.");
+            b=sc.nextFloat();
+            s_real=s_real+a;
+            s_img=s_img+b;
+        }
+        System.out.println("Sum of Complex No. is:: "+s_real+" i"+s_img);
+    }
+}
