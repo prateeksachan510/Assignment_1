@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        double p,ta,t,r;
+        int n;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Principal amount");
+        p=sc.nextDouble();
+        System.out.println("Enter time in yrs");
+        t=sc.nextDouble();
+        System.out.println("Enter Rate of Interest");
+        r=sc.nextDouble();
+        System.out.println("Enter no. of times Interest to be calculated");
+        n=sc.nextInt();
+        ta=p*(Math.pow((1+r/100),n*t));
+        System.out.println("Compound Inerest for Principal of "+p+"is:: "+ta);
+    }
+}
