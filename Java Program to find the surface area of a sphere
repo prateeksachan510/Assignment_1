@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        double r,sa;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter Radius of sphere");
+       r=sc.nextDouble();
+       sa=4*Math.PI*Math.pow(r,2);
+       System.out.println("Surface Area of Rectangle= "+sa);
+    }
+}
